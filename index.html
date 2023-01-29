@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>番茄读书</title>
+    <script src="fanqiedushu/iconfont.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="backToTop">Top</div>
+    <div class="tab">
+        <div class="tt">
+            <a href="#"><span class="cur">推荐</span></a>
+            <a href="#"><span>出版</span></a>
+            <a href="#"><span>放映厅</span></a>
+            <a href="#"><span>听书</span></a>
+        </div>
+
+        <a href="./sousuo.html">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-search"></use>
+            </svg>
+        </a>
+    </div>
+
+    <div class="list">
+        <div class="title">
+            <h2>热门标签</h2>
+            <a href="./fenlei.html">
+                <span>更多<svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <ul class="tag">
+            <li>
+                <p>设置阅读偏好<svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-right"></use>
+                    </svg></p>
+            </li>
+            <li>
+                <p>求生</p>
+            </li>
+            <li>
+                <p>职场</p>
+            </li>
+            <li>
+                <p>盗墓</p>
+            </li>
+            <li>
+                <p>反派</p>
+            </li>
+            <li>
+                <p>网游</p>
+            </li>
+            <li>
+                <p>现代甜宠</p>
+            </li>
+            <li>
+                <p>星际</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="list">
+        <div class="title">
+            <h2>排行榜</h2>
+            <a href="">
+                <span>完整榜单<svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-right"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+        <ul class="tag">
+            <li class="active">
+                <p>全部</p>
+            </li>
+            <li>
+                <p>穿越</p>
+            </li>
+            <li>
+                <p>现代言情</p>
+            </li>
+            <li>
+                <p>豪门总裁</p>
+            </li>
+        </ul>
+
+        <!-- 排行榜，以json加载 -->
+        <div class="ilist" id="top"></div>
+    </div>
+
+    <div id="bnav">
+        <div class="nav">
+            <a href="./index.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-home"></use>
+                </svg>
+                <div class="navText">书城</div>
+            </a>
+        </div>
+        <div class="nav">
+            <a href="./fenlei.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-fenlei"></use>
+                </svg>
+                <div class="navText">分类</div>
+            </a>
+        </div>
+        <div class="nav">
+            <a href="./shucheng.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-content"></use>
+                </svg>
+                <div class="navText">书架</div>
+            </a>
+
+        </div>
+        <div class="nav">
+            <a href="./my.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-me"></use>
+                </svg>
+                <div class="navText">我的</div>
+            </a>
+        </div>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(243, 242, 230);
+}
+
+.tab {
+    padding: 0;
+    margin: 10px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.tab a {
+    text-align: center;
+}
+
+.tab a svg {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.tt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tt a {
+    /* height: 60px; */
+    line-height: 30px;
+    /* width: 180px; */
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.cur {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    vertical-align: bottom;
+    /* background-color: #fff; */
+}
+
+.list {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 95%;
+}
+
+.list .title {
+    display: flex;
+    margin: 10px 15px;
+}
+
+.list .title h2 {
+    font-weight: 600px;
+    font-size: 20px;
+}
+
+.list .title a {
+    margin: 15px auto;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    flex-grow: 1;
+}
+
+.tag {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.tag>li {
+    border-radius: 50px;
+    background-color: rgb(226, 226, 226);
+    /* margin-top: 10px; */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+.tag>li.active {
+    background-color: rgb(255, 191, 0);
+}
+
+.tag>li>p {
+    /* font-size: 26px; */
+    color: rgb(15, 15, 14);
+    margin: 0px;
+}
+
+.center {
+    padding-top: 30px;
+    height: 100px;
+}
+
+.below {
+    height: 80px;
+}
+
+img {
+    width: 100px;
+    border: none;
+    display: block;
+
+}
+
+.ilist {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.item {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap;
+    box-sizing: border-box;
+}
+
+.item>.seq {
+    width: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(191, 191, 191);
+    font-size: 30px;
+}
+
+.item>.seq.top {
+    color: rgb(255, 200, 49);
+}
+
+.item>img {
+    width: 64px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.item>.text {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.item>.text>.title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
+.item>.text>.info {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: rgb(135, 135, 135);
+    margin: 3px 0px;
+}
+
+#backToTop {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    z-index: 10;
+    bottom: 80px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}

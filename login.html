@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <header id="indexheader" class="nav">
+        <div class="topbar">账户登录</div>
+    </header>
+    <form action="#" id="login-form" method="get" onsubmit="login()">
+        <div class="loginInputFrame">
+            <input class="loginInput" type="text" id="email" name="email" placeholder="邮箱">
+            <div class="error">请检查输入的邮箱是否合法</div>
+        </div>
+
+        <div class="loginInputFrame">
+            <input class="loginInput" type="password" id="pwd" name="pwd" placeholder="密码">
+            <div class="error">密码应为8-16位</div>
+        </div>
+
+        <input type="submit" value="登录" id="dologin" class="u-loginbtn">
+    </form>
+    <div class="loginFooter">
+        <a class="text" href="" class="u-regbtn">注册</a>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

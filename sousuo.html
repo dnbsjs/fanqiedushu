@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>搜索</title>
+    <link rel="stylesheet" href="./fontm/iconfont.css">
+    <script src="fanqiedushu/iconfont.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sousuo.css">
+</head>
+
+<body>
+    <header id="head">
+        <a href="#" onclick="javascript:history.back(-1);"><span class="iconfont icon-zuojiantou"></span></a>
+        <div class="top">
+            <span class="iconfont icon-search1"></span>
+            <input type="text" name="icon-search1" id="search1" placeholder="请输入书名或作者">
+        </div>
+        <div class="search" id="searchBtn">搜索</div>
+    </header>
+
+    <div class="ls">
+        <div class="title">
+            <h3>搜索历史</h3>
+            <a href="#" id="clearHistory">
+                <svg class="icon shanchu" aria-hidden="true">
+                    <use xlink:href="#icon-shanchu"></use>
+                </svg>
+            </a>
+        </div>
+        <ul class="tag" id="history">
+            <li>中华上下五千年上</li>
+            <li>三国演义</li>
+        </ul>
+    </div>
+
+    <div class="ls">
+        <div class="title">
+            <h3>搜索发现</h3>
+        </div>
+        <!-- 搜索发现，以json载入数据 -->
+        <ul class="tag" id="discover"></ul>
+    </div>
+
+    <div class="class">
+        <div class="shang">推荐榜</div>      
+         <!--排行榜，以json载入数据  -->
+        <div class="ilist" id="top"></div>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/sousuo.js"></script>
+</body>
+
+</html>

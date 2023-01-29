@@ -1,0 +1,121 @@
+{
+  "id": "2969184",
+  "name": "番茄读书",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7264173",
+      "name": "铜钱",
+      "font_class": "tongqian",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "577357",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "1239932",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "2811150",
+      "name": "签到",
+      "font_class": "qiandao",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "25972446",
+      "name": "form",
+      "font_class": "form",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "25972449",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "25972452",
+      "name": "setting",
+      "font_class": "setting",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "25972455",
+      "name": "content",
+      "font_class": "content",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "25972457",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "25972467",
+      "name": "me",
+      "font_class": "me",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "25972468",
+      "name": "type",
+      "font_class": "type",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "25972469",
+      "name": "edit",
+      "font_class": "edit",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "25972476",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "25972488",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "25972490",
+      "name": "more",
+      "font_class": "fenlei",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "25972519",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}
