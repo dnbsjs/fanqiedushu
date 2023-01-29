@@ -11,3 +11,17 @@ get("json/shujia.json", function (data) {
         shujia.innerHTML += html;
     }
 });
+
+var lqhb = document.getElementById("lqhb");
+lqhb.addEventListener("click", function (e) {
+    let coin = 0;
+    try {
+        coin = Number(localStorage.getItem("coin"));
+    }
+    catch {
+        
+    }
+    coin += 800;
+    localStorage.setItem("coin", coin);
+    e.preventDefault();
+});
